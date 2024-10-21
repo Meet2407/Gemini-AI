@@ -9,3 +9,10 @@
 - **User Input Handling**: Users can type messages and receive instant responses from the AI.
 - **Fast and Efficient**: Optimized for performance and responsiveness to create seamless interactions.
 - **Modern Design**: Intuitive and user-friendly UI built using UIKit.
+
+## Usage
+
+1. Launch the app on your iOS device or simulator.
+2. Type a message in the input field and send it to the AI.
+3. The AI will process your request and respond with intelligent feedback.
+4. Enjoy a natural conversation flow!
