@@ -342,13 +342,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5JP-zi-4a2">
-                                                    <rect key="frame" x="12" y="10" width="369" height="50"/>
+                                                    <rect key="frame" x="10" y="10" width="373" height="50"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5de-wb-7Z4">
-                                                            <rect key="frame" x="8" y="8" width="353" height="34"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="353" id="z76-hR-cAR"/>
-                                                            </constraints>
+                                                            <rect key="frame" x="8" y="8" width="357" height="34"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -356,20 +353,19 @@
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="5de-wb-7Z4" secondAttribute="bottom" constant="8" id="AyM-Og-dDh"/>
-                                                        <constraint firstItem="5de-wb-7Z4" firstAttribute="leading" secondItem="5JP-zi-4a2" secondAttribute="leading" constant="8" id="UTU-lV-TJH"/>
-                                                        <constraint firstItem="5de-wb-7Z4" firstAttribute="top" secondItem="5JP-zi-4a2" secondAttribute="top" constant="8" id="XqY-AS-dqx"/>
-                                                        <constraint firstAttribute="trailing" secondItem="5de-wb-7Z4" secondAttribute="trailing" constant="8" id="bsR-pM-SKV"/>
-                                                        <constraint firstAttribute="width" constant="369" id="hpu-iR-lFZ"/>
+                                                        <constraint firstItem="5de-wb-7Z4" firstAttribute="top" secondItem="5JP-zi-4a2" secondAttribute="top" constant="8" id="Oh4-qU-fC3"/>
+                                                        <constraint firstAttribute="bottom" secondItem="5de-wb-7Z4" secondAttribute="bottom" constant="8" id="hhE-pe-Hdi"/>
+                                                        <constraint firstItem="5de-wb-7Z4" firstAttribute="leading" secondItem="5JP-zi-4a2" secondAttribute="leading" constant="8" id="k6i-UW-wAX"/>
+                                                        <constraint firstAttribute="trailing" secondItem="5de-wb-7Z4" secondAttribute="trailing" constant="8" id="roa-rB-Soc"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemYellowColor"/>
                                             <constraints>
-                                                <constraint firstItem="5JP-zi-4a2" firstAttribute="leading" secondItem="a45-He-Khh" secondAttribute="leading" constant="12" id="0Rn-m9-Uj6"/>
-                                                <constraint firstAttribute="bottom" secondItem="5JP-zi-4a2" secondAttribute="bottom" constant="10" id="QGO-R9-Ios"/>
-                                                <constraint firstAttribute="trailing" secondItem="5JP-zi-4a2" secondAttribute="trailing" constant="12" id="UCD-i3-qFr"/>
-                                                <constraint firstItem="5JP-zi-4a2" firstAttribute="top" secondItem="a45-He-Khh" secondAttribute="top" constant="10" id="s0O-UE-kgZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="5JP-zi-4a2" secondAttribute="trailing" constant="10" id="70D-Aw-YIj"/>
+                                                <constraint firstItem="5JP-zi-4a2" firstAttribute="top" secondItem="a45-He-Khh" secondAttribute="top" constant="10" id="iWD-rT-XI5"/>
+                                                <constraint firstItem="5JP-zi-4a2" firstAttribute="leading" secondItem="a45-He-Khh" secondAttribute="leading" constant="10" id="jNr-dJ-8gU"/>
+                                                <constraint firstAttribute="bottom" secondItem="5JP-zi-4a2" secondAttribute="bottom" constant="10" id="zEN-cT-Fan"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -489,7 +485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2281.679389312977" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2384" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HrJ-jZ-za5">
@@ -518,7 +514,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -527,10 +523,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -539,7 +535,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
